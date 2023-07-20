@@ -47,6 +47,7 @@ public class Main {
         }
         System.out.println(" ");
     }
+
     public static void task3() {
         System.out.println("Задача 3");
         int[] array1 = {1, 2, 3};
