@@ -51,7 +51,7 @@ public class Main {
     public static void task3() {
         System.out.println("Задача 3");
         int[] array1 = {1, 2, 3};
-        for (int i = 2; i >= 0; i--) {
+        for (int i = array1.length - 1; i >= 0; i--) {
             if (i == 0) {
                 System.out.print(array1[i]);
             } else {
@@ -60,7 +60,7 @@ public class Main {
         }
         System.out.println(" ");
         double[] array2 = new double[]{1.57, 7.654, 9.986};
-        for (int i = 2; i >= 0; i--) {
+        for (int i = array1.length - 1; i >= 0; i--) {
             if (i == 0) {
                 System.out.print(array2[i]);
             } else {
@@ -69,7 +69,7 @@ public class Main {
         }
         System.out.println(" ");
         int[] myArray = new int[]{16, 21, 25,};
-        for (int i = 2; i >= 0; i--) {
+        for (int i = array1.length - 1; i >= 0; i--) {
             if (i == 0) {
                 System.out.print(myArray[i]);
             } else {
